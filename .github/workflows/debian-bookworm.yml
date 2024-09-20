@@ -13,7 +13,7 @@ jobs:
             compat-distro-version: bookworm64
           - arch: x86
             compat-distro-version: bookworm
-    if: github.repository == 'puppylinux-woof-CE/woof-CE'
+    if: github.repository == 'fuzzball03/woof-CE'
     uses: ./.github/workflows/build.yml
     with:
       repo: ${{ github.repository }}
