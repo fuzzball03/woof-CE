@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    if: github.event_name != 'schedule' || (github.repository == 'puppylinux-woof-CE/woof-CE' && github.ref == 'refs/heads/testing')
+    if: github.event_name != 'schedule' || (github.repository == 'fuzzball03/woof-CE' && github.ref == 'refs/heads/testing')
     runs-on: ubuntu-22.04
     container:
       image: ubuntu:${{ matrix.release }}
