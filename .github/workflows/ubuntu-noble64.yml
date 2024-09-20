@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    if: github.repository == 'puppylinux-woof-CE/woof-CE'
+    if: github.repository == 'fuzzball03/woof-CE'
     uses: ./.github/workflows/build.yml
     with:
       repo: ${{ github.repository }}
