@@ -8,11 +8,11 @@ on:
       name:
         description: 'Human-readable name'
         required: true
-        default: 'JammyPup64 CE'
+        default: 'NoblePup64'
       version:
         description: 'Version number'
         required: true
-        default: '10.0'
+        default: '24.04'
       suffix:
         description: 'Release name suffix, with leading -'
         required: false
@@ -28,15 +28,15 @@ on:
       compat-distro-version:
         description: 'Compatible distro version'
         required: false
-        default: 'jammy64'
+        default: 'noble64'
       kernel:
         description: 'Kernel version'
         required: false
-        default: '5.15.x'
+        default: 'ubuntu-noble'
       prefix:
         description: 'File name prefix'
         required: false
-        default: 'jammypup64ce'
+        default: 'noblepup64'
       release:
         type: boolean
         description: 'Upload release draft'
